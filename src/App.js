@@ -4,7 +4,7 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
+    <div className="text-center mt-4">
       <Header/>
       <CardContainer/>
       

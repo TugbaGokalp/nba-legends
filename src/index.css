@@ -2,18 +2,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4d467;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.card-container {
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/661/973/110/cool-nba-logo-wallpaper-preview.jpg");
 }
+
+.player-card {
+  height: 400px;
+  max-width: 280px;
+  min-width: 230px;
+  
+}
+
+.player-img{
+  transition: transform 0.2s;
+  height: 350px;
+}
+
+.player-card:hover .player-img{
+  transform: scale(0.95);
+  box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
+}
+

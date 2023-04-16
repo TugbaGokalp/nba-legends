@@ -1,9 +1,18 @@
+import Card from 'react-bootstrap/Card';
 
 
-const PlayerCard = () => {
+function PlayerCard({name, img, statistics}) {
   return (
-    <div>PlayerCard</div>
-  )
+    <Card className='player-card rounded-2 m-auto' role="button">
+      <Card.Img variant="top" src={img} className='player-img'/> 
+
+      <Card.Footer>
+        <Card.Title>
+          {name}
+        </Card.Title>
+      </Card.Footer>
+    </Card>
+  );
 }
 
-export default PlayerCard
+export default PlayerCard;
