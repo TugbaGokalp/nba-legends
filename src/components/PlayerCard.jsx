@@ -13,6 +13,7 @@ function PlayerCard({ name, img, statistics }) {
       onClick={handleShowImage}
       className="player-card rounded-2 m-auto"
       role="button"
+      
     >
       {showImage ? (
         <Card.Img variant="top" src={img} className="player-img" />

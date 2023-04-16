@@ -1,5 +1,7 @@
 # Project: NBA Legends App (
 
+- Link : https://nba-legends-cards-project.netlify.app/
+
 ## Description
 
 Project aims to create a NBA Legends App.
