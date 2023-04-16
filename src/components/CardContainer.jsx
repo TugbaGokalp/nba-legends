@@ -9,7 +9,7 @@ const CardContainer = () => {
     const [search, setSearch] = useState("")
   return (
     <div>
-        <Form.Control type="search" placeholder="Search Player.." className='w-50 m-auto' onChange={(e) => setSearch(e.target.value)}/>
+        <Form.Control type="search" placeholder="Search Player.." className='w-25 m-auto' onChange={(e) => setSearch(e.target.value)}/>
         <Container className="card-container rounded-4 my-4 p-3">
             <Row className='g-3 justify-content-center'>
                 {data
